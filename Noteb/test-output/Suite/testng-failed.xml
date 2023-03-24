@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="TestBlock2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.noteb.testscript.BudgetFilter">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyBudgetFilter"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.noteb.testscript.BudgetFilter -->
+    </classes>
+  </test> <!-- TestBlock2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

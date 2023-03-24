@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Started]]>
+    </line>
+    <line>
+      <![CDATA[Entered the URL -'https://www.noteb.com/' ]]>
+    </line>
+    <line>
+      <![CDATA[Search filter clicked on main Panel ]]>
+    </line>
+    <line>
+      <![CDATA[Budget filter is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Min and Max input fields are present]]>
+    </line>
+    <line>
+      <![CDATA[Currency field is present]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Started]]>
+    </line>
+    <line>
+      <![CDATA[Entered the URL -'https://www.noteb.com/' ]]>
+    </line>
+    <line>
+      <![CDATA[clicked on main Panel's Search filter ]]>
+    </line>
+    <line>
+      <![CDATA[min slider dragged in positive axis and accordingly updated the input field]]>
+    </line>
+    <line>
+      <![CDATA[min slider dragged in negative axis and accordingly updated the input field]]>
+    </line>
+    <line>
+      <![CDATA[max slider dragged in positive axis and accordingly updated the input field]]>
+    </line>
+    <line>
+      <![CDATA[max slider dragged in negative axis and accordingly updated the input field]]>
+    </line>
+    <line>
+      <![CDATA[Entered a valid value in minValueField ]]>
+    </line>
+    <line>
+      <![CDATA[Min slider updates it's position as per entered input]]>
+    </line>
+    <line>
+      <![CDATA[Entered a valid value in maxValueField ]]>
+    </line>
+    <line>
+      <![CDATA[Max slider updates it's position as per entered input]]>
+    </line>
+    <line>
+      <![CDATA[Entered min and max value as same]]>
+    </line>
+    <line>
+      <![CDATA[Min and Max slider updates it's position as per entered input]]>
+    </line>
+    <line>
+      <![CDATA[Entered min value greater than max value or max value less than min value]]>
+    </line>
+    <line>
+      <![CDATA[Min and Max slider updates it's position as per entered input]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-24T18:57:00 IST" name="Suite" finished-at="2023-03-24T18:59:37 IST" duration-ms="157515">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T18:57:00 IST" name="Test" finished-at="2023-03-24T18:59:37 IST" duration-ms="157515">
+      <class name="com.noteb.testscript.BudgetFilter">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.noteb.testscript.BudgetFilter@28eaa59a]" started-at="2023-03-24T18:57:00 IST" name="openBrowser" finished-at="2023-03-24T18:58:15 IST" duration-ms="75696" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Started]]>
+            </line>
+            <line>
+              <![CDATA[Entered the URL -'https://www.noteb.com/' ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyBudgetFilter()[pri:0, instance:com.noteb.testscript.BudgetFilter@28eaa59a]" started-at="2023-03-24T18:58:15 IST" name="verifyBudgetFilter" finished-at="2023-03-24T18:58:26 IST" duration-ms="10578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search filter clicked on main Panel ]]>
+            </line>
+            <line>
+              <![CDATA[Budget filter is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Min and Max input fields are present]]>
+            </line>
+            <line>
+              <![CDATA[Currency field is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBudgetFilter -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.noteb.testscript.BudgetFilter@28eaa59a]" started-at="2023-03-24T18:58:26 IST" name="closeBrowser" finished-at="2023-03-24T18:58:32 IST" duration-ms="6096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.noteb.testscript.BudgetFilter -->
+      <class name="com.noteb.testscript.SyncInBudgetFilter">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.noteb.testscript.SyncInBudgetFilter@619713e5]" started-at="2023-03-24T18:58:32 IST" name="openBrowser" finished-at="2023-03-24T18:59:15 IST" duration-ms="42574" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Started]]>
+            </line>
+            <line>
+              <![CDATA[Entered the URL -'https://www.noteb.com/' ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifySyncInBudgetFilter()[pri:0, instance:com.noteb.testscript.SyncInBudgetFilter@619713e5]" started-at="2023-03-24T18:59:15 IST" name="VerifySyncInBudgetFilter" finished-at="2023-03-24T18:59:37 IST" duration-ms="21778" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on main Panel's Search filter ]]>
+            </line>
+            <line>
+              <![CDATA[min slider dragged in positive axis and accordingly updated the input field]]>
+            </line>
+            <line>
+              <![CDATA[min slider dragged in negative axis and accordingly updated the input field]]>
+            </line>
+            <line>
+              <![CDATA[max slider dragged in positive axis and accordingly updated the input field]]>
+            </line>
+            <line>
+              <![CDATA[max slider dragged in negative axis and accordingly updated the input field]]>
+            </line>
+            <line>
+              <![CDATA[Entered a valid value in minValueField ]]>
+            </line>
+            <line>
+              <![CDATA[Min slider updates it's position as per entered input]]>
+            </line>
+            <line>
+              <![CDATA[Entered a valid value in maxValueField ]]>
+            </line>
+            <line>
+              <![CDATA[Max slider updates it's position as per entered input]]>
+            </line>
+            <line>
+              <![CDATA[Entered min and max value as same]]>
+            </line>
+            <line>
+              <![CDATA[Min and Max slider updates it's position as per entered input]]>
+            </line>
+            <line>
+              <![CDATA[Entered min value greater than max value or max value less than min value]]>
+            </line>
+            <line>
+              <![CDATA[Min and Max slider updates it's position as per entered input]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySyncInBudgetFilter -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.noteb.testscript.SyncInBudgetFilter@619713e5]" started-at="2023-03-24T18:59:37 IST" name="closeBrowser" finished-at="2023-03-24T18:59:37 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.noteb.testscript.SyncInBudgetFilter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
