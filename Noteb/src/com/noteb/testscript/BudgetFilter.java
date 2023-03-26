@@ -22,7 +22,7 @@ public class BudgetFilter extends BaseClass {
 		String expecText="Budget:";
 		SoftAssert soft=new SoftAssert();
 		Assert.assertEquals(actText, expecText);
-	    Reporter.log("Budget filter is displayed", true);
+	    Reporter.log("Budget filter is present", true);
 	    
 	    //since html tree for input field is having null value so using slider's attribute.
 		String min=home.getMinSlider().getAttribute("aria-valuetext");
@@ -33,7 +33,9 @@ public class BudgetFilter extends BaseClass {
 			Reporter.log("Min and Max input fields are present", true);
 		}
 		boolean c=home.getCurrencyField().isDisplayed();
+		if(c==true) {
 		Reporter.log("Currency field is present", true);
+		}
 		soft.assertAll();
 	}
 
