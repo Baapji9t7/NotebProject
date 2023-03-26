@@ -33,9 +33,6 @@ public class HomePage {
 	@FindBy(id="submitformid")
 	private WebElement submitButton;
 	
-	@FindBy(xpath="//div[@class='btn btn-outline-secondary searchprice fakeBtn']")
-	private List <WebElement> priceRange;
-	
 	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
