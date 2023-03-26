@@ -73,10 +73,6 @@ public class HomePage {
 	public WebElement getSubmitButton() {
 		return submitButton;
 	}
-	
-	public List<WebElement> getPriceRange() {
-		return  priceRange;
-	}
 
 	
 }
